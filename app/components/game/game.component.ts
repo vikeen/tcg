@@ -1,16 +1,13 @@
-import { Component, Input } from '@angular/core';
-
-interface Player {
-  name: string;
-}
+import {Component, Input} from '@angular/core';
+import {Player} from '../player/player.component';
 
 @Component({
   selector: 'tcg-game',
   templateUrl: "app/components/game/game.html"
 })
-export class GameComponent {
-  @Input() player1: Player;
-  @Input() player2: Player;
+export class Game {
+  @Input() player1:Player;
+  @Input() player2:Player;
 
   constructor() {
   }

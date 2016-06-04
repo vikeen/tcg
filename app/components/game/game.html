@@ -1,6 +1,27 @@
-<div class="tcg-game wrapper">
-  <h1>GAME BOARD HERE</h1>
+<div class="tcg-game wrapper pure-g">
+  <div class="tcg-game__sidebar pure-u-4-24">
 
-  <div>Player1: {{player1.name}}</div>
-  <div>Player2: {{player2.name}}</div>
+  </div>
+  <div class="tcg-game-board pure-u-16-24">
+    <div class="tcg-game-board__opponent">
+
+      <img class="tcg-game-board__player-portrait"
+           src="{{player1.image}}"/>
+      <h2 class="tcg-game-board__player-name">{{player1.name}}</h2>
+
+      <div class="tcg-game-board__player-monster-area">
+      </div>
+    </div>
+    <div class="tcg-game-board__player">
+      <div class="tcg-game-board__player-monster-area">
+
+      </div>
+      <h2 class="tcg-game-board__player-name">{{player2.name}}</h2>
+      <img class="tcg-game-board__player-portrait"
+           src="{{player2.image}}"/>
+    </div>
+  </div>
+  <div class="tcg-game__sidebar pure-u-4-24">
+
+  </div>
 </div>

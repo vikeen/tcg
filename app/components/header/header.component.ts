@@ -3,7 +3,7 @@ import {Component} from '@angular/core';
   selector: 'tcg-header',
   templateUrl: "app/components/header/header.html"
 })
-export class HeaderComponent {
+export class Header {
   constructor() {
   }
 }

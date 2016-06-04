@@ -1,3 +1,29 @@
 .tcg-game {
   background-color: #ececec;
+  min-height: 100%;
+}
+
+.tcg-game__sidebar {
+  background-color: lightslategray;
+}
+
+.tcg-game-board {
+}
+
+.tcg-game-board__player-portrait {
+  width: 100px;
+  height: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.tcg-game-board__player-name {
+  text-align: center;
+}
+
+.tcg-game-board__player-monster-area { e
+  height: 200px;
+  background: lightcoral;
+  border: black 1px solid;
+  margin: 10px 0;
 }
