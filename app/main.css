@@ -1,0 +1,11 @@
+@import "components/game/game.css";
+@import "components/header/header.css";
+
+body {
+  background-color: #1f8dd6;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}

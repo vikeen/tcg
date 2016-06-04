@@ -9,4 +9,4 @@ node_modules/
 
 # typescript
 typings/
-app/*.js*
+app/**/*.js*

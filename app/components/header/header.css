@@ -1,0 +1,37 @@
+.tcg-header {
+  background-color: #2D3E50;
+  height: 50px;
+}
+
+.tcg-header nav {
+  height: 100%;
+}
+
+.tcg-header a {
+  color: white;
+}
+
+.tcg-header a:hover,
+.tcg-header a:active,
+.tcg-header a:focus {
+  background: transparent;
+  color: #6FBEF3;
+}
+
+.tcg-header a:focus {
+  outline-color: #6FBEF3;
+}
+
+.tcg-header a.pure-menu-heading:hover,
+.tcg-header a.pure-menu-heading:active,
+.tcg-header a.pure-menu-heading:focus {
+  color: white;
+}
+
+.tcg-header .pure-menu-list {
+  float: right;
+}
+
+.tcg-header .pure-menu-link {
+  padding-top: 1em;
+}
