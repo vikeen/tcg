@@ -1,9 +1,4 @@
 export class Player {
-  name: string;
-  image: string;
-
-  constructor(player) {
-    this.name = player.name;
-    this.image = player.image;
+  constructor(public name:string, public image:string) {
   }
 }
