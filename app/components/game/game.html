@@ -1,13 +1,12 @@
 <div class="tcg-game wrapper pure-g">
-  <div class="tcg-game__sidebar pure-u-4-24">
-
-  </div>
-  <div class="tcg-game-board pure-u-16-24">
-    <div class="tcg-game-board__opponent">
+  <div class="tcg-game-board pure-u-24-24">
+    <div class="tcg-game-board__player tcg-game-board__player--opponent">
 
       <img class="tcg-game-board__player-portrait"
            src="{{player1.image}}"/>
-      <h2 class="tcg-game-board__player-name">{{player1.name}}</h2>
+      <span *ngIf="player1.currentTurn">[X]</span>
+      <!--<h2 class="tcg-game-board__player-name">{{player1.name}}</h2>-->
+      <button (click)="endCurrentPlayerTurn()">End Turn</button>
 
       <div class="tcg-game-board__player-monster-area">
       </div>
@@ -16,12 +15,11 @@
       <div class="tcg-game-board__player-monster-area">
 
       </div>
-      <h2 class="tcg-game-board__player-name">{{player2.name}}</h2>
+      <!--<h2 class="tcg-game-board__player-name">{{player2.name}}</h2>-->
       <img class="tcg-game-board__player-portrait"
            src="{{player2.image}}"/>
+      <span *ngIf="player2.currentTurn">[X]</span>
+      <button (click)="endCurrentPlayerTurn()">End Turn</button>
     </div>
-  </div>
-  <div class="tcg-game__sidebar pure-u-4-24">
-
   </div>
 </div>

@@ -10,9 +10,12 @@
 .tcg-game-board {
 }
 
+.tcg-game-board__player {
+  height: 50%;
+}
+
 .tcg-game-board__player-portrait {
-  width: 100px;
-  height: 150px;
+  width: 75px;
   margin: 0 auto;
   display: block;
 }
@@ -21,8 +24,8 @@
   text-align: center;
 }
 
-.tcg-game-board__player-monster-area { e
-  height: 200px;
+.tcg-game-board__player-monster-area {
+  height: 40%;
   background: lightcoral;
   border: black 1px solid;
   margin: 10px 0;
